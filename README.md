@@ -1,18 +1,12 @@
-**********************************************************************
+# Hand-Writing Recognition AI in Python
 
-Hand-Writing Recognition Project
-CAI 4841: Final Project
-Ryan Martinez
-
-Project Overview
-**********************
+## Project Overview
 
 This project receives an image of handwritten words on a blank page, detects the letters in the image,
 and predicts what english letters are present on the page. The program will output each word detected in 
 the image, separated by a white space. Different lines in the image are also separated in the output.
 
-Setting Up and Running the Project
-**********************
+## Setting Up and Running the Project
 
 1)  Unzip the contents of the "demo" zip and navigate to the main directory
     ./demo in a terminal that can utilize python.
@@ -39,8 +33,7 @@ Setting Up and Running the Project
     $ python writing_recognition.py
 
 
-Files Included:
-**********************
+### Files Included:
 
 1) writing_recognition.py
     This is the main program. It detects the letters in the image and uses the model 
@@ -60,8 +53,7 @@ Files Included:
     This file holds all of the python dependencies required to run this project.
 
 
-Directories:
-**********************
+### Directories:
 
 1) demo
     This directory is the main directory which holds the python files and 
@@ -81,5 +73,3 @@ Directories:
     This directory holds the images used to test the model.
     These images are not labeled, and they are images of handwritten words on a blank page.
     These images are for use in writing_recognition.py.
-
-**********************************************************************
