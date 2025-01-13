@@ -13,15 +13,18 @@ the image, separated by a white space. Different lines in the image are also sep
 
 2) Create a python venv within the main directory ./demo and activate it using the following commands
 
-    $ python3.12 -m venv .  
-    $ source ./bin/activate  
-
-3)  Run the following command within the main directory ./demo
+    ```
+    $ python3.12 -m venv .
+    $ source ./bin/activate
+    ```
+4)  Run the following command within the main directory ./demo
     to install all of the required python dependencies within venv.
 
+    ```
     $ pip install -r requirements.txt
+    ```
 
-4)  The demo inputs are are within the ./demo_inputs directory.
+6)  The demo inputs are are within the ./demo_inputs directory.
     You can view them there.
 
     To view the output, run the python file 'writing_recognition.py' within the main directory. 
@@ -30,8 +33,9 @@ the image, separated by a white space. Different lines in the image are also sep
     
     After the program finishes running, it will print to the console the words detected on the image.
 
+    ```
     $ python writing_recognition.py
-
+    ```
 
 ### Files Included:
 
